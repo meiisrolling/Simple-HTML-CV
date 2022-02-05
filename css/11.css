@@ -1,0 +1,305 @@
+*{
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	font-family: "Trebuchet MS", sans-serif;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+nav a{
+	color: #264653;
+	display: block;
+	margin: 14px 20px;
+	text-decoration: none;
+}
+.menu_container{
+	display: flex;
+	flex-wrap: nowrap;
+}
+#meilogo{
+	flex: 15%;
+	display: block;
+	height: 50px;
+}
+.menu_center{
+	flex: 70%;
+	display: flex;
+	text-align: center;
+}
+.m_cen_items{
+	flex: 20%;
+	padding: 14px 20px;
+	text-align: center;
+}
+#menu_right{
+	flex: 15%;
+	padding: 14px 20px;
+	text-align: right;
+}
+
+#res{
+	background-color: #264653;
+	color: white;
+	padding: 80px;
+	margin: 0;
+}
+#res_t{
+	font-family: "Sacramento", cursive;
+	text-align: center;
+	font-size: 350%;
+}
+#res_p{
+	font-family: "Trebuchet MS", sans-serif;
+	text-align: center;
+	font-size: 120%;
+}
+
+#about{
+	color: #264653;
+	font-family: "Trebuchet MS", sans-serif;
+	padding: 20px 120px;
+}
+#about hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about_flex{
+	display: flex;
+}
+#logo{
+	flex: 30%;
+	box-sizing: border-box;
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+}
+.about_right{
+	flex: 60%;
+	display: flex;
+	flex-wrap: nowrap;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 15px;
+}
+.ab_left_items{
+	flex: 95%;
+	font-size: 130%;
+	margin-left: 15px;
+}
+.ab_left_items ul{
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#edu{
+	background-color: #264653;
+	font-family: "Trebuchet MS", sans-serif;
+	color: white;
+	padding: 30px 120px;
+}
+#edu hr{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#edu_flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.edu-item{
+	flex: 30%;
+	font-size: 130%;
+	padding: 10px;
+	padding-left: 0;
+}
+
+#exp{
+	color: #264653;
+	background-color: white;
+	font-family: "Trebuchet MS", sans-serif;
+	padding: 20px 120px;
+}
+#exp_main_hr{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#exp-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.exp-item{
+	flex: 20%;
+	font-size: 130%;
+	padding: 20px;
+	padding-left: 0;
+}
+.exp-item hr{
+ 	border-top: 2px dotted #264653;
+ 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#skill_lang{
+	display: flex;
+	flex-wrap: wrap;	
+	color: white;
+	background-color: #264653;
+	font-family: "Trebuchet MS", sans-serif;
+	padding: 20px 120px;
+}
+#skill{
+	flex: 70%;
+	padding-right: 50px;
+}
+#lang{
+	flex: 20%;
+}
+#skill_hr{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#lang_hr{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#skill_flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.skill_item{
+	flex: 30%;
+	font-size: 130%;
+	padding: 20px;
+	padding-left: 0;
+}
+.skill_item hr{
+ 	border-top: 2px dotted white;
+ 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.skill_item li{
+	margin-left: 20px;
+}
+#lang_flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.lang_item{
+	flex: 50%;
+	font-size: 130%;
+	padding: 20px;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.lang_item hr{
+ 	border-top: 2px dotted white;
+ 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.lang_item li{
+	margin-left: 20px;
+}
+
+#contact{
+	color: #264653;
+	background-color: white;
+	font-family: "Trebuchet MS", sans-serif;
+	padding: 20px 120px;
+}
+#contact-item{
+	font-size: 130%;
+	padding: 20px;
+	padding-left: 0;
+	padding-bottom: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+#contact-item, .a:visited {
+	text-decoration: none;
+	color: #264653;
+}
+.con-ele{
+	flex:30%;
+}
+
+footer{
+	color: white;
+	background-color: #264653;
+	font-family: "Trebuchet MS", sans-serif;
+	margin-top: 20px;
+	padding: 20px 120px;
+	font-size: 130%;
+	text-align: center;
+}
+
+@media(max-width: 900px){
+	.menu_container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#meilogo{
+		flex: 100%;
+		display: block;
+		height: 50px;
+	}
+	.menu_center{
+		flex: 100%;
+		display: block;
+		text-align: center;
+	}
+	.m_cen_items{
+		flex: 100%;
+		display: block;
+		text-align: center;
+	}
+	#menu_right{
+		flex: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	.about_flex{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#logo{
+		flex: 100%;
+		box-sizing: border-box;
+	    width: 40%;
+	    height: 40%;
+	    object-fit: contain;
+	}
+	.about_right{
+		flex: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		text-align: left;
+		padding-left: 40px;
+		padding-top: 15px;
+	}
+	.ab_left_items{
+		flex: 95%;
+		font-size: 130%;
+		margin-top: 20px;
+	}
+	.ab_left_items ul{
+		padding-top: 15px;
+		padding-left: 20px;
+	}
+
+	#skill_lang{
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	#skill{
+		flex: 40%;
+	}
+	#lang{
+		flex: 40%;
+	}
+	#skill_flex{
+		flex-wrap: nowrap;
+	}	
+}
